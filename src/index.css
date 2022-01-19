@@ -1,0 +1,137 @@
+body{
+  overflow-x: hidden;
+}
+.main_container{
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 2rem;
+  height: 50vh;
+  width:100%;
+}
+.heading{
+  font-size: 1.5rem;
+  font-family: 'Trebuchet MS' ;
+  text-align: center;
+}
+.postbox{
+  height:340px;
+  width:650px;
+  border:1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.imgclass{
+    margin: 10px;
+    height: 50px;
+    width: 60px;
+  border-radius: 50%;
+}
+.section1{
+  display: inline-flex;
+  height: 120px;
+}
+.textareastyles{
+  width:100%;
+  border:none;
+  outline:none;
+  padding: 25px 5px 0px 15px;
+  font-size: 1.2rem;
+}
+.section2{
+  width: 100%;
+  height:180px;
+  padding-left:25px;
+}
+.section3{
+  display:inline-flex;
+  justify-content: space-between;
+  padding:0.5rem;
+}
+.Getgif{
+  width:300px;
+  background-color: cornflowerblue;
+  padding:0.8rem 0rem;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.postbtn{
+  width:300px;
+  background-color: blue;
+  color:white;
+  text-align: center;
+  border-radius: 10px;
+  padding:0.8rem 0rem;
+  font-family: sans-serif;
+  cursor:pointer;
+}
+.Gifdialogbox{
+  position: absolute;
+  height:20rem;
+  width:300px;
+  background-color: gainsboro;
+  margin-top: 2rem;
+  margin-left: 0.3rem;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.inputbox{
+  width:98%;
+  background-color: blue;
+  color: white;
+}
+.inputbox span{
+  height:1.5rem;
+  width:7%;
+ cursor: pointer;
+ font-family: sans-serif
+}
+.searchgif{
+  width:87%;
+  align-items: center;
+  height:1.5rem;
+  border:1px solid grey;
+  outline:none;
+}
+.searchedgifs{
+  padding:0.3rem;
+  width:96%;
+  display:grid;
+  grid-template-columns: 48.6% 48.6%;
+  grid-gap: 0.5rem;
+  align-items: center;
+  overflow-y: scroll;
+}
+.postsec{
+  width:100%;
+  display:inline-flex;
+  height:100vh;
+  padding:1.5rem 3rem;
+  flex-wrap: wrap;
+}
+.newsfeed{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+.post{
+  height:220px;
+  width:220px;
+  margin:0.8rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:1px solid blue;
+}
+.postmsg{
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  height:2.6rem;
+}
